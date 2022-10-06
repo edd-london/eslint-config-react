@@ -1,0 +1,35 @@
+{
+  "name": "@gman112/eslint-config-test",
+  "version": "1.0.0",
+  "description": "This package provides EDD London's .eslintrc as an extensible shared config.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "EDD London"
+  ],
+  "author": {
+    "name": "EDD London",
+    "email": "email@email.com"
+  },
+  "license": "ISC",
+  "scripts": {
+    "push": "npm version patch && git push",
+    "push-minor": "npm version minor && git push",
+    "push-major": "npm version major && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "urlToYourRepository"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-next": "12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-storybook": "^0.6.4",
+    "eslint-plugin-unicorn": "^44.0.0"
+  }
+}
