@@ -18,3 +18,6 @@ Our default export contains ESlint rules, including ECMAScript 6+ and React.
 
 + paste the following snippet <code>{<br/> &nbsp;&nbsp;extends: ['EDD'];<br/>}</code>. 
   
+## Publish 
+
+run the following command `npm run minor`
