@@ -1,5 +1,5 @@
 {
-  "name": "@gman112/eslint-config-test",
+  "name": "@eddlondon/eslint-config-react",
   "version": "1.0.0",
   "description": "This package provides EDD London's .eslintrc as an extensible shared config.",
   "main": "index.js",
@@ -10,8 +10,7 @@
     "EDD London"
   ],
   "author": {
-    "name": "EDD London",
-    "email": "email@email.com"
+    "name": "EDD London"
   },
   "license": "ISC",
   "scripts": {
@@ -21,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "urlToYourRepository"
+    "url": "https://github.com/edd-london/eslint-config-react.git"
   },
   "devDependencies": {
     "eslint": "^8.24.0",
