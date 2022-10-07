@@ -15,9 +15,13 @@ Our default export contains ESlint rules, including ECMAScript 6+ and React.
 
 ## Usage
 + create a file called `.eslintrc.json` in root directory of application 
-
-+ paste the following snippet <code>{<br/> &nbsp;&nbsp;extends: ['EDD'];<br/>}</code>. 
+  
++ paste the following snippet <code>{<br/> &nbsp;&nbsp;extends: ['@eddlondon/eslint-config-react'];<br/>}</code>. 
   
 ## Publish 
 
-run the following command `npm run minor`
+run the following command <br/>
+
+`npm run push-minor`
+
+`yarn push-minor`
