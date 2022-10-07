@@ -22,7 +22,7 @@
     "type": "git",
     "url": "https://github.com/edd-london/eslint-config-react.git"
   },
-  "Dependencies": {
+  "dependencies": {
     "eslint": "^8.24.0",
     "eslint-config-next": "12.2.5",
     "eslint-config-prettier": "^8.5.0",
