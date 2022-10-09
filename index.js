@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     "react-app",
     "react-app/jest",
-    "next/core-web-vitals",
     "plugin:jsx-a11y/recommended",
     "plugin:unicorn/recommended",
     "plugin:import/errors",

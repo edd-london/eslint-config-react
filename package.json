@@ -23,12 +23,17 @@
     "url": "https://github.com/edd-london/eslint-config-react.git"
   },
   "dependencies": {
-    "eslint": "^8.24.0",
-    "eslint-config-next": "12.2.5",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-mdx": "^2.0.5",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-storybook": "^0.6.4",
     "eslint-plugin-unicorn": "^44.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "typescript": ">=4",
+    "prettier": ">=2"
   }
 }
