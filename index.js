@@ -50,5 +50,13 @@ module.exports = {
       },
     ],
     "import/no-cycle": "error"
-  }
+  },
+  overrides: [
+    {
+      files: ['*.(tsx|ts)'],
+      rules: {
+        "@typescript-eslint/consistent-type-imports": "error"
+      }
+    }
+  ]
 };
