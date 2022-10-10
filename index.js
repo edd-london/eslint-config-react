@@ -49,5 +49,6 @@ module.exports = {
         endOfLine: "auto",
       },
     ],
-  },
+    "import/no-cycle": "error"
+  }
 };
