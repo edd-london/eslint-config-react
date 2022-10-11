@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     "react-app",
     "react-app/jest",
-    "next/core-web-vitals",
     "plugin:jsx-a11y/recommended",
     "plugin:unicorn/recommended",
     "plugin:import/errors",
@@ -57,6 +56,21 @@ module.exports = {
       rules: {
         "@typescript-eslint/consistent-type-imports": "error"
       }
-    }
-  ]
+    },
+    {
+      files: ["**/*.stories.(mdx|tsx|js|jsx)"],
+      extends: ["plugin:storybook/recommended"],
+    },
+    {
+      files: ["*.mdx"],
+      extends: ["plugin:mdx/recommended"],
+      // optional, if you want to lint code blocks at the same time
+      settings: {
+        "mdx/code-blocks": true,
+      },
+      rules: {
+        "import/namespace": "off",
+      },
+    },
+  ],
 };
