@@ -15,6 +15,7 @@
   "license": "ISC",
   "scripts": {
     "push": "npm version patch && git push",
+    "push-patch": "npm version patch --force && git push",
     "push-minor": "npm version minor && git push",
     "push-major": "npm version major && git push"
   },
