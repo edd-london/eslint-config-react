@@ -52,13 +52,13 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.(tsx|ts)'],
+      files: ['*.{tsx,ts}'],
       rules: {
         "@typescript-eslint/consistent-type-imports": "error"
       }
     },
     {
-      files: ["**/*.stories.(mdx|tsx|js|jsx)"],
+      files: ["**/*.stories.{mdx,tsx,js,jsx}"],
       extends: ["plugin:storybook/recommended"],
     },
     {
