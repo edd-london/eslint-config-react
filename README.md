@@ -2,6 +2,8 @@
 
 Our default export contains ESlint rules, including ECMAScript 6+ and React.
 
+[https://www.npmjs.com/package/@eddlondon/eslint-config-react](https://www.npmjs.com/package/@eddlondon/eslint-config-react)
+
 ## Prerequisites
 
 `npm install npm@latest -g`  
