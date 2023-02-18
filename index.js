@@ -50,6 +50,11 @@ module.exports = {
     ],
     "import/no-cycle": "error"
   },
+  settings: {
+    "import/resolver": {
+      typescript: {}
+    }
+  },
   overrides: [
     {
       files: ['*.{tsx,ts}'],
