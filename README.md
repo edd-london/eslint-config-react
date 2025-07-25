@@ -11,6 +11,11 @@ Our default export contains ESlint rules, including ECMAScript 6+ and React.
   
 `eslint extension`
 
+**Requirements:**
+- ESLint 8+
+- Prettier 2+
+- TypeScript 5+ (for TypeScript projects)
+
 ## Installation
 `npm i @eddlondon/eslint-config-react`  
 `yarn add @eddlondon/eslint-config-react`  
