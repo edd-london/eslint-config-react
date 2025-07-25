@@ -1,6 +1,6 @@
 {
   "name": "@eddlondon/eslint-config-react",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "This package provides EDD London's .eslintrc as an extensible shared config.",
   "main": "index.js",
   "keywords": [
@@ -15,6 +15,7 @@
   "license": "ISC",
   "scripts": {
     "push": "npm version patch && git push",
+    "publish": "npm publish",
     "push-patch": "npm version patch --force && git push",
     "push-minor": "npm version minor && git push",
     "push-major": "npm version major && git push"
