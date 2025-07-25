@@ -29,13 +29,12 @@
     "type": "git",
     "url": "https://github.com/edd-london/eslint-config-react.git"
   },
-  "dependencies": {
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-config-react-app": "^7.0.1"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@eslint/js": "^9.0.0",
     "eslint": ">=8",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",

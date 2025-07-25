@@ -1618,11 +1618,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eddlondon/eslint-config-react@workspace:."
   dependencies:
-    "@eslint/js": ^9.32.0
     eslint-config-prettier: ^10.1.8
     eslint-config-react-app: ^7.0.1
-    semver: ^7.7.2
   peerDependencies:
+    "@eslint/js": ^9.0.0
     eslint: ">=8"
     eslint-import-resolver-typescript: ^4.4.4
     eslint-plugin-import: ^2.32.0
@@ -1635,13 +1634,6 @@ __metadata:
     typescript: ">=5"
   languageName: unknown
   linkType: soft
-
-"@eslint/js@npm:^9.32.0":
-  version: 9.32.0
-  resolution: "@eslint/js@npm:9.32.0"
-  checksum: 2b55854d8057828179eb245542c35d6a34e74806ca5401813cb9ed424c9fa1530b2f9dd4ac0fb6158c2c3540539683811b8817768548b28747d2325bec23f099
-  languageName: node
-  linkType: hard
 
 "@jridgewell/gen-mapping@npm:^0.1.0":
   version: 0.1.1
@@ -3556,15 +3548,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.7.2":
-  version: 7.7.2
-  resolution: "semver@npm:7.7.2"
-  bin:
-    semver: bin/semver.js
-  checksum: dd94ba8f1cbc903d8eeb4dd8bf19f46b3deb14262b6717d0de3c804b594058ae785ef2e4b46c5c3b58733c99c83339068203002f9e37cfe44f7e2cc5e3d2f621
   languageName: node
   linkType: hard
 

@@ -28,10 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@eslint/js", "npm:9.32.0"],\
             ["eslint-config-prettier", "virtual:6bd03d0d164c6591533cfeac14e40fe3074c08578d8506fb1c61f677ad61fb33fd20935c45948e5475c852aac41fce3162217ac94059d283cc6f9f7007ae0f95#npm:10.1.8"],\
-            ["eslint-config-react-app", "virtual:6bd03d0d164c6591533cfeac14e40fe3074c08578d8506fb1c61f677ad61fb33fd20935c45948e5475c852aac41fce3162217ac94059d283cc6f9f7007ae0f95#npm:7.0.1"],\
-            ["semver", "npm:7.7.2"]\
+            ["eslint-config-react-app", "virtual:6bd03d0d164c6591533cfeac14e40fe3074c08578d8506fb1c61f677ad61fb33fd20935c45948e5475c852aac41fce3162217ac94059d283cc6f9f7007ae0f95#npm:7.0.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2733,21 +2731,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@eddlondon/eslint-config-react", "workspace:."],\
-            ["@eslint/js", "npm:9.32.0"],\
             ["eslint-config-prettier", "virtual:6bd03d0d164c6591533cfeac14e40fe3074c08578d8506fb1c61f677ad61fb33fd20935c45948e5475c852aac41fce3162217ac94059d283cc6f9f7007ae0f95#npm:10.1.8"],\
-            ["eslint-config-react-app", "virtual:6bd03d0d164c6591533cfeac14e40fe3074c08578d8506fb1c61f677ad61fb33fd20935c45948e5475c852aac41fce3162217ac94059d283cc6f9f7007ae0f95#npm:7.0.1"],\
-            ["semver", "npm:7.7.2"]\
+            ["eslint-config-react-app", "virtual:6bd03d0d164c6591533cfeac14e40fe3074c08578d8506fb1c61f677ad61fb33fd20935c45948e5475c852aac41fce3162217ac94059d283cc6f9f7007ae0f95#npm:7.0.1"]\
           ],\
           "linkType": "SOFT"\
-        }]\
-      ]],\
-      ["@eslint/js", [\
-        ["npm:9.32.0", {\
-          "packageLocation": "./.yarn/cache/@eslint-js-npm-9.32.0-dba4bf8487-2b55854d80.zip/node_modules/@eslint/js/",\
-          "packageDependencies": [\
-            ["@eslint/js", "npm:9.32.0"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["@jridgewell/gen-mapping", [\
@@ -5152,13 +5139,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["semver", "npm:7.3.8"],\
             ["lru-cache", "npm:6.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:7.7.2", {\
-          "packageLocation": "./.yarn/cache/semver-npm-7.7.2-dfc3bc5ec9-dd94ba8f1c.zip/node_modules/semver/",\
-          "packageDependencies": [\
-            ["semver", "npm:7.7.2"]\
           ],\
           "linkType": "HARD"\
         }]\
