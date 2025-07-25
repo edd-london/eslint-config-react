@@ -3,6 +3,10 @@
   "version": "4.0.0",
   "description": "This package provides EDD London's .eslintrc as an extensible shared config.",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./flat": "./flat.js"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -24,18 +28,18 @@
     "type": "git",
     "url": "https://github.com/edd-london/eslint-config-react.git"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-config-react-app": "^7.0.1",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-mdx": "^3.6.2",
     "eslint-plugin-prettier": "^5.5.3",
     "eslint-plugin-storybook": "^9.0.18",
-    "eslint-plugin-unicorn": "^60.0.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=8",
+    "eslint-plugin-unicorn": "^60.0.0",
     "prettier": ">=2",
     "typescript": ">=5"
   },
