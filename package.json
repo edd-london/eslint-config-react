@@ -5,8 +5,7 @@
   "main": "index.js",
   "exports": {
     ".": "./index.js",
-    "./flat": "./flat.js",
-    "./legacy": "./legacy.js"
+    "./flat": "./flat.js"
   },
   "keywords": [
     "eslint",
@@ -32,9 +31,8 @@
   "dependencies": {},
   "peerDependencies": {
     "@eslint/js": "^9.0.0",
-    "eslint": ">=8",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-config-react-app": "^7.0.1",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
