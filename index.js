@@ -42,12 +42,9 @@ const config = [
       prettier,
     },
     rules: {
-      // React rules
       ...react.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
       ...jsxA11y.configs.recommended.rules,
-      
-      // Unicorn rules
       ...unicorn.configs.recommended.rules,
       'unicorn/no-null': 'off',
       'unicorn/prevent-abbreviations': 'off',
@@ -68,8 +65,6 @@ const config = [
         },
       ],
       'unicorn/no-useless-undefined': ['error', { checkArguments: false }],
-      
-      // Import rules
       'import/order': [
         'error',
         {
@@ -77,16 +72,12 @@ const config = [
         },
       ],
       'import/no-cycle': 'error',
-      
-      // General rules
       'array-callback-return': [
         'error',
         {
           allowImplicit: true,
         },
       ],
-      
-      // Prettier rules
       'prettier/prettier': [
         'error',
         {
@@ -103,15 +94,17 @@ const config = [
       },
     },
   },
-  ...tseslint.configs.recommended,
   {
     files: ['**/*.{ts,tsx}'],
     rules: {
       '@typescript-eslint/consistent-type-imports': 'error',
     },
   },
-  ...storybook.configs['flat/recommended'],  
-  // MDX files configuration
+  ...tseslint.configs.recommended,
+  {
+    files: ['**/*.stories.{js,jsx,ts,tsx,mdx}'],
+    ...storybook.configs['flat/recommended'][0], 
+  },
   {
     files: ['**/*.mdx'],
     plugins: {
@@ -126,7 +119,7 @@ const config = [
     },
   },
   
-  // Prettier config (must be last to override other formatting rules)
+  // Needs to be last to override other formatting rules
   prettierConfig,
 ];
 
