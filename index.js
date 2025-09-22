@@ -15,12 +15,12 @@ import storybook from 'eslint-plugin-storybook';
 const config = [
   // Base JavaScript config
   js.configs.recommended,
-  
+
   // Global ignores
   {
-    ignores: ['**/node_modules/**', '**/dist/**', '**/build/**']
+    ignores: ['**/node_modules/**', '**/dist/**', '**/build/**'],
   },
-  
+
   // Base config for all files
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
@@ -103,7 +103,7 @@ const config = [
   ...tseslint.configs.recommended,
   {
     files: ['**/*.stories.{js,jsx,ts,tsx,mdx}'],
-    ...storybook.configs['flat/recommended'][0], 
+    ...storybook.configs['flat/recommended'][0],
   },
   {
     files: ['**/*.mdx'],
@@ -118,7 +118,7 @@ const config = [
       'mdx/code-blocks': true,
     },
   },
-  
+
   // Needs to be last to override other formatting rules
   prettierConfig,
 ];
