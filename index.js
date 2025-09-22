@@ -56,7 +56,6 @@ const config = [
             kebabCase: true,
             pascalCase: true,
           },
-          ignore: ['setupTests.ts', 'reportWebVitals.ts'],
         },
       ],
       'unicorn/catch-error-name': [
