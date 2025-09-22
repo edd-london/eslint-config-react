@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.yarn/
+.pnp.*
+
+# Generated files
+*.log
+*.lock
+yarn.lock
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

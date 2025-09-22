@@ -3,3 +3,7 @@ node_modules
 # Yarn v3+ files
 .yarn/cache
 .yarn/install-state.gz
+
+# IDE files
+.vscode/
+.idea/
