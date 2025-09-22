@@ -44,6 +44,7 @@ const config = [
     rules: {
       ...react.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
+      'react/react-in-jsx-scope': 'off',
       ...jsxA11y.configs.recommended.rules,
       ...unicorn.configs.recommended.rules,
       'unicorn/no-null': 'off',
