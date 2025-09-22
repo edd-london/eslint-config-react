@@ -1,6 +1,3 @@
-// @ts-check
-
-/** @type {import('prettier').Config} */
 module.exports = {
   // Override defaults
   singleQuote: true,
